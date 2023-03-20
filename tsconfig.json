@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./build",
+    "strict": true,
+    "esModuleInterop": true, // use import moment from 'moment' instead of import * as moment from 'moment'
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": true
+  },
+  "include": ["src"],
+  "exclude": ["**/*.test.ts"] // don't include the test in final build
+}
